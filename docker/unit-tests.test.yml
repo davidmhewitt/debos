@@ -1,4 +1,4 @@
-version: '3.4'
+version: "3.4"
 
 services:
   sut:
@@ -6,7 +6,6 @@ services:
       context: ..
       dockerfile: docker/Dockerfile
       target: builder
-    image:
-      debos-builder
-    working_dir: /usr/local/go/src/github.com/go-debos/debos
+    image: debos-builder
+    working_dir: /usr/local/go/src/github.com/davidmhewitt/debos
     command: go test -v ./...

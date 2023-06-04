@@ -33,8 +33,8 @@ import (
 	"fmt"
 	"os"
 	"path/filepath"
-	"github.com/go-debos/debos"
-	"github.com/go-debos/fakemachine"
+	"github.com/davidmhewitt/debos"
+	"github.com/davidmhewitt/fakemachine"
 )
 
 type RecipeAction struct {

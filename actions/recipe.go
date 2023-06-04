@@ -72,7 +72,7 @@ package actions
 import (
 	"bytes"
 	"fmt"
-	"github.com/go-debos/debos"
+	"github.com/davidmhewitt/debos"
 	"gopkg.in/yaml.v2"
 	"path"
 	"text/template"

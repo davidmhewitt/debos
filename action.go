@@ -2,7 +2,7 @@ package debos
 
 import (
 	"bytes"
-	"github.com/go-debos/fakemachine"
+	"github.com/davidmhewitt/fakemachine"
 	"log"
 )
 

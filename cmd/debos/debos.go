@@ -9,9 +9,9 @@ import (
 	"strings"
 
 	"github.com/docker/go-units"
-	"github.com/go-debos/debos"
-	"github.com/go-debos/debos/actions"
-	"github.com/go-debos/fakemachine"
+	"github.com/davidmhewitt/debos"
+	"github.com/davidmhewitt/debos/actions"
+	"github.com/davidmhewitt/fakemachine"
 	"github.com/jessevdk/go-flags"
 )
 
